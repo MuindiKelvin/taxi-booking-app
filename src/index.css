@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#map {
+  height: 450px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  #map {
+    height: 300px;
+  }
+  .auth-container {
+    padding: 15px;
+  }
+  .card {
+    margin: 10px;
+  }
 }
