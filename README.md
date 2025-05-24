@@ -1,3 +1,12 @@
+The **Kenya Taxi** project is a modern web application built with React and Firebase for booking taxi rides in Kenya. 
+
+It features user authentication (email/password and Google sign-in), a booking form with real-time map integration using Leaflet and Nominatim for location search, ride history display, and a driver tracking component with mock real-time updates. 
+
+The app includes a creative UI with Bootstrap styling and animations. 
+
+Additional features like dark mode, payment mode selection (Cash, M-Pesa, Card), and a responsive navbar enhance the user experience, making it intuitive and engaging for ride booking.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
